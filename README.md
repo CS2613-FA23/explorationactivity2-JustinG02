@@ -13,15 +13,15 @@
 <li>Install Puppeteer using npm:</li>
 <pre><code>npm install puppeteer</code></pre>
 
-<li>Importing in Your Code:</li>
+<h3>Importing in Your Code:</h3>
 
-<p>In your JavaScript code, import the Puppeteer module:</p>
+<li>In your JavaScript code, import the Puppeteer module:</li>
 <pre><code>import puppeteer from 'puppeteer';</code></pre>
 
 <li>Usage:</li>
 
-<p>Use Puppeteer functions for tasks such as automated testing, web scraping, performance monitoring, web crawling, and more.
-Please Refer to the official Puppeteer documentation for more detailed information on available functions and usage examples.</p>
+Use Puppeteer functions for tasks such as automated testing, web scraping, performance monitoring, web crawling, and more.
+Please Refer to the official Puppeteer documentation for more detailed information on available functions and usage examples.
 </ol>
 
 <h2>3. Purpose of the Program</h2>
