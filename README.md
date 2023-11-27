@@ -15,13 +15,13 @@
 
 <li>Importing in Your Code:</li>
 
-In your JavaScript code, import the Puppeteer module:
+<p>In your JavaScript code, import the Puppeteer module:</p>
 <pre><code>import puppeteer from 'puppeteer';</code></pre>
 
 <li>Usage:</li>
 
-Use Puppeteer functions for tasks such as automated testing, web scraping, performance monitoring, web crawling, and more.
-Please Refer to the official Puppeteer documentation for more detailed information on available functions and usage examples.
+<p>Use Puppeteer functions for tasks such as automated testing, web scraping, performance monitoring, web crawling, and more.
+Please Refer to the official Puppeteer documentation for more detailed information on available functions and usage examples.</p>
 </ol>
 
 <h2>3. Purpose of the Program</h2>
