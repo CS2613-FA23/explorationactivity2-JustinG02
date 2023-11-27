@@ -2,7 +2,7 @@
 # ExplorationActivity2 - JavaScript Puppeteer Package
 
 <h2>1. Package/Library Demonstrated</h2>
-<p>The sample program showcases the usage of the Puppeteer Package in JavaScript. Puppeteer is a Node JS library developed by Google to control headless Chrome or Chromium browsers programmatically. [Official Puppeteer Documentation](https://pptr.dev)<p>
+<p>The sample program showcases the usage of the Puppeteer Package in JavaScript. Puppeteer is a Node JS library developed by Google to control headless Chrome or Chromium browsers programmatically. [Official Puppeteer Documentation](https://pptr.dev)</p>
 
 <h2>2. Running the Program</h2>
 <p>To use Puppeteer in your JavaScript project, follow these steps:</p>
