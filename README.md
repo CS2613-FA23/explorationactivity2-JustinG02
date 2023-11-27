@@ -13,9 +13,9 @@
 <li>Install Puppeteer using npm:</li>
 <pre><code>npm install puppeteer</code></pre>
 
-Importing in Your Code:
+<li>Importing in Your Code:</li>
 
-<li>In your JavaScript code, import the Puppeteer module:</li>
+<h4>In your JavaScript code, import the Puppeteer module:</h4>
 import puppeteer from 'puppeteer';
 
 <li>Usage:</li>
