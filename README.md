@@ -15,8 +15,8 @@
 
 <li>Importing in Your Code:</li>
 
-<h4>In your JavaScript code, import the Puppeteer module:</h4>
-import puppeteer from 'puppeteer';
+In your JavaScript code, import the Puppeteer module:
+<pre><code>import puppeteer from 'puppeteer';</code></pre>
 
 <li>Usage:</li>
 
