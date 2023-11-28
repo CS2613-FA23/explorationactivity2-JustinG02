@@ -28,9 +28,8 @@ Please Refer to the official Puppeteer documentation for more detailed informati
 <p>The purpose of this program is to demonstrate how to install and use Puppeteer in JavaScript. It provides a starting point for developers who want to control Chromium browsers programmatically.</p>
 
 <h2>4. Sample Input/Output</h2>
-<h3>Input:</h3> <p>'https://google.ca/'</p>
-<h3>Output:</h3>
-<p>![Example Screenshot](google.png)</p>
+<h3>Input:</h3> <p>'https://google.ca/' @ 'google.png'</p>
+<h3>Output:</h3> <p>Screenshot of Googles homepage</p>
 For example:
 
 <pre><code>const puppeteer = require('puppeteer');
