@@ -12,13 +12,25 @@ Puppeteer is a Node.js library developed by Google that provides a high-level AP
 
 ### How to Use Puppeteer
 
+To use Puppeteer in JavaScript, you first need to install it using npm:
+
+```bash
+npm install puppeteer
+```
+
 ## 3. Functionalities of Puppeteer
 
 ## 4. Creation Date
 
+Puppeteer is an open-source project created by the Chrome DevTools team in 2017. Current development takes place on GutHub and is updated frequently. [Who Owns Puppeteer?](https://www.scrapingbee.com/webscraping-questions/puppeteer/who-owns-puppeteer/#:~:text=Puppeteer%20is%20owned%20by%20Google,development%20takes%20place%20on%20GitHub.)
+
 ## 5. Why Puppeteer?
 
+Puppeteer was chosen for this exploration activity due to its robust capabilities in controlling headless browsers. It is officially supported by Google, frequently updated, and well-documented, making it a reliable choice for web automation tasks like testing, scraping, or capturing web content.
+
 ## 6. Influence on Learning
+
+Learning Puppeteer enhanced understanding of JavaScript's asynchronous nature, Promises, and modern web automation techniques. It provided insights into interacting with web pages programmatically and improved knowledge of debugging in headless environments.
 
 ## 7. Overall Experience
 
