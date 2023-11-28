@@ -30,7 +30,7 @@ Please Refer to the official Puppeteer documentation for more detailed informati
 <h2>4. Sample Input/Output</h2>
 <h3>Input:</h3> <p>'https://google.ca/'</p>
 <h3>Output:</h3>
-![OpenCV Logo](https://opencv.org/wp-content/uploads/2020/07/cropped-OpenCV_logo_white_600x.png)
+<p>![Example Screenshot](google.png)</p>
 For example:
 
 <pre><code>const puppeteer = require('puppeteer');
