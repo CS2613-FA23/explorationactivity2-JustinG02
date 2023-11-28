@@ -29,7 +29,8 @@ Please Refer to the official Puppeteer documentation for more detailed informati
 
 <h2>4. Sample Input/Output</h2>
 <h3>Input:</h3> <p>'https://google.ca/'</p>
-<h3>Output:</h3> <p>![Example Screenshot](https://github.com/CS2613-FA23/explorationactivity2-JustinG02/blob/main/google.png)</p>
+<h3>Output:</h3>
+![Example Screenshot](https://github.com/CS2613-FA23/explorationactivity2-JustinG02/blob/main/google.png)
 For example:
 
 <pre><code>const puppeteer = require('puppeteer');
