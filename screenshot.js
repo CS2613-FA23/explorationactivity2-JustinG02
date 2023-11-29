@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const prompt = require('prompt-sync')({sigint: true});
 
+// Prompt user for input
 let input = prompt("Please enter your query: ");
 
 (async () => {
