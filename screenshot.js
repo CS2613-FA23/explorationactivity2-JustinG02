@@ -1,4 +1,7 @@
 const puppeteer = require('puppeteer');
+const prompt = require('prompt-sync')({sigint: true});
+
+let input = prompt("Please enter your query: ");
 
 (async () => {
   // Open browser
@@ -9,7 +12,7 @@ const puppeteer = require('puppeteer');
   await page.goto('https://www.google.com');
 
   // Type "Hello World!" in the search input and press Enter
-  await page.type("*[name='q']", 'Hello World!');
+  await page.type("*[name='q']", input);
   await page.keyboard.press('Enter');
 
   // Wait for search results to load
