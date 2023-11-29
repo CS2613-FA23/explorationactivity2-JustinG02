@@ -28,19 +28,30 @@ Please Refer to the official Puppeteer documentation for more detailed informati
 <p>The purpose of this program is to demonstrate how to install and use Puppeteer in JavaScript. It provides a starting point for developers who want to control Chromium browsers programmatically.</p>
 
 <h2>4. Sample Input/Output</h2>
-<h3>Input:</h3> <p>URL and screenshot path</p>
-<h3>Output:</h3> <p>Screenshot of the given website</p>
+<h3>Input:</h3> <p>Query to be inserted into Google</p>
+<h3>Output:</h3> <p>Screenshot of the given results</p>
 For example:
 
 <pre><code>const puppeteer = require('puppeteer');
 
 (async () => {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    
-    await page.goto('https://example.com');
-    await page.screenshot({ path: 'example.png' });
-    
-    await browser.close(); })();</code></pre>
+  // Open browser
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
 
-Remember to replace 'https://example.com' and 'example.png' with the actual URL and name of your screenshot.
+  // Navigate to Google
+  await page.goto('https://www.google.com');
+
+  // Type "Hello World!" in the search input and press Enter
+  await page.type('input[name="q"]', 'Hello World!');
+  await page.keyboard.press('Enter');
+
+  // Wait for search results to load
+  await page.waitForSelector('#search');
+
+  // Take a screenshot of the search results
+  await page.screenshot({ path: 'hello_world_search.png' });
+
+  // Close browser
+  await browser.close();
+})();</code></pre>
