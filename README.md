@@ -33,6 +33,10 @@ Please Refer to the official Puppeteer documentation for more detailed informati
 For example:
 
 <pre><code>const puppeteer = require('puppeteer');
+const prompt = require('prompt-sync')({sigint: true});
+
+// Prompt user for input
+let input = prompt("Please enter your query: ");
 
 (async () => {
   // Open browser
@@ -43,14 +47,14 @@ For example:
   await page.goto('https://www.google.com');
 
   // Type "Hello World!" in the search input and press Enter
-  await page.type('input[name="q"]', 'Hello World!');
+  await page.type("*[name='q']", input);
   await page.keyboard.press('Enter');
 
   // Wait for search results to load
   await page.waitForSelector('#search');
 
   // Take a screenshot of the search results
-  await page.screenshot({ path: 'hello_world_search.png' });
+  await page.screenshot({ path: 'search_results.png' });
 
   // Close browser
   await browser.close();
